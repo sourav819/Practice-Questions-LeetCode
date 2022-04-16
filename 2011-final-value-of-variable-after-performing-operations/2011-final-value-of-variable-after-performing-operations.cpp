@@ -12,3 +12,5 @@ public:
         
     }
 };
+
+//instead of checking for "++x" or "x++" ,check only for middle character
