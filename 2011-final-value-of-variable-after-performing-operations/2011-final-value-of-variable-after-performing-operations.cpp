@@ -5,7 +5,8 @@ public:
         int ans=0;
         for(int i=0; i<operations.size(); i++)
         {
-            if(operations[i]=="++X" || operations[i]=="X++")
+            string temp=operations[i];
+            if(temp[1]=='+')
                 ans+=1;
             else
                 ans-=1;
